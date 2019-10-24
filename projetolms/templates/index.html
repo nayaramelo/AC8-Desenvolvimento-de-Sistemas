@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head><link rel="stylesheet" href="{{ url_for('static', filename='./cabecalho.css') }}"><meta charset="utf-8"></head> 
+
+ 
+    <body>
+            
+        <header>
+            <img src="{{url_for('static', filename='Mackenzie.png')}}" >
+                <div id="menu">
+                        <ul>
+                           <li><a href="index.html">Home Page</a></li>
+                            <li><a href="detalhe-curso.html">Lista de Cursos</a></li>
+                            <li><a href="Noticias.html">Notícias</a></li>
+                        </ul>
+                    </div>
+                
+        </header>
+ 
+          
+        <div class="conteudo">
+		<div class="texto">
+        <p class="center">CONHEÇA A MACKENZIE</p>
+        
+           <div class="conheca"> O Mackenzie é uma instituição educacional privada, confessional e sem fins lucrativos, com quase 150 anos de história. Desde sua fundação, a Instituição é agente de uma série de inovações pedagógicas e acompanha e influencia o cenário da educação no país. Um de seus principais objetivos é formar cidadãos com capacidade de discernimento, com critérios e condições para fazer a leitura do mundo em que vivem, a partir de valores e princípios eternos, e que sejam aptos a intervir na sociedade. 
+
+            Ao longo de sua existência, implantou cursos com o objetivo de abranger novas áreas do conhecimento e acompanhar o progresso da sociedade com intensa participação comunitária. Tornou-se reconhecido pela tradição, pioneirismo e inovação na educação, o que permitiu alcançar o posto de uma das mais renomadas instituições de ensino, entre as que mais contribuem para o desenvolvimento científico e acadêmico do País. Como entidade confessional, promove o desenvolvimento de cidadãos que sejam solidários, responsáveis e busquem a Deus em seus caminhos.
+        </div><br>  
+        <div class="img"><img src="{{url_for('static', filename='Fachada.jpg')}}" alt="Imagem Notici1" height="70%" width="70%"></div>
+            <a href="detalhe-curso.html"><h4>Conheça nossos cursos</h4></a>
+        <br><br>
+		</div>
+		</div>
+<footer>
+    <p class="center">Todos os direitos reservados. Projeto LMS 2019</p>
+</footer>
+
+</body>
+
+</html>
